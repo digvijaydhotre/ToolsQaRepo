@@ -9,7 +9,7 @@ public class testcBase {
 	public static WebDriver driver;
 	
 	public testcBase() {
-		System.setProperty("webdriver.chrome.driver","G:\\automation-practice\\ToolsQaRepo\\AutomationToolsQA\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","E:\\Jar Files\\chromedriver\\chromedriver.exe");
 
 	}
 	

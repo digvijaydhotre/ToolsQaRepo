@@ -17,6 +17,13 @@ public class loginPage extends testcBase{
 	@FindBy(xpath="//*[@id=\"login\"]")
 	WebElement loginBtn;
 	
+	@FindBy(xpath="//*[@id=\"app\"]/div/div/div[2]/div/div[6]")
+	WebElement bookstrapp;
+	
+	@FindBy(xpath="/html/body/div/div/div/div[2]/div[1]/div/div/div[6]/div/ul/li[1]")
+	WebElement loginbuttn;
+	
+	
 	public loginPage() {
 		PageFactory.initElements(driver, this);
 	}
@@ -33,4 +40,12 @@ public class loginPage extends testcBase{
 		loginBtn.click();
 	}
 	
+	public void bookStorApp()
+	{
+		bookstrapp.click();
+	}
+	
+	public void loginbuttn() {
+		loginbuttn.click();
+	}
 }

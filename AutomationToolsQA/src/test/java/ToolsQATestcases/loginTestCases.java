@@ -15,9 +15,12 @@ public class loginTestCases extends testcBase{
 	
 	@Test
 	public void userInfo() {
+		loginpg.bookStorApp();
+		loginpg.loginbuttn();
 		loginpg.userName("Akshay");
 		loginpg.password("test");
 		loginpg.LoginButton();
+		
 	}
 
 }
